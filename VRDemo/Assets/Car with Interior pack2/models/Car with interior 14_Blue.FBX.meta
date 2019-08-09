@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 9ba3f1df5112a8849b1b8ce241cee545
+timeCreated: 1540638910
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: car with interior 14_Blue_Body
+    100004: car with interior 14_Blue_Door1
+    100006: car with interior 14_Blue_Door2
+    100008: car with interior 14_Blue_Interior
+    100010: car with interior 14_Blue_Steering
+    100012: car with interior 14_Blue_Wheel_FL
+    100014: car with interior 14_Blue_Wheel_FR
+    100016: car with interior 14_Blue_Wheel_RL
+    100018: car with interior 14_Blue_Wheel_RR
+    400000: //RootNode
+    400002: car with interior 14_Blue_Body
+    400004: car with interior 14_Blue_Door1
+    400006: car with interior 14_Blue_Door2
+    400008: car with interior 14_Blue_Interior
+    400010: car with interior 14_Blue_Steering
+    400012: car with interior 14_Blue_Wheel_FL
+    400014: car with interior 14_Blue_Wheel_FR
+    400016: car with interior 14_Blue_Wheel_RL
+    400018: car with interior 14_Blue_Wheel_RR
+    2300000: car with interior 14_Blue_Body
+    2300002: car with interior 14_Blue_Door1
+    2300004: car with interior 14_Blue_Door2
+    2300006: car with interior 14_Blue_Interior
+    2300008: car with interior 14_Blue_Steering
+    2300010: car with interior 14_Blue_Wheel_FL
+    2300012: car with interior 14_Blue_Wheel_FR
+    2300014: car with interior 14_Blue_Wheel_RL
+    2300016: car with interior 14_Blue_Wheel_RR
+    3300000: car with interior 14_Blue_Body
+    3300002: car with interior 14_Blue_Door1
+    3300004: car with interior 14_Blue_Door2
+    3300006: car with interior 14_Blue_Interior
+    3300008: car with interior 14_Blue_Steering
+    3300010: car with interior 14_Blue_Wheel_FL
+    3300012: car with interior 14_Blue_Wheel_FR
+    3300014: car with interior 14_Blue_Wheel_RL
+    3300016: car with interior 14_Blue_Wheel_RR
+    4300000: car with interior 14_Blue_Wheel_RL
+    4300002: car with interior 14_Blue_Wheel_FL
+    4300004: car with interior 14_Blue_Wheel_FR
+    4300006: car with interior 14_Blue_Door2
+    4300008: car with interior 14_Blue_Door1
+    4300010: car with interior 14_Blue_Body
+    4300012: car with interior 14_Blue_Interior
+    4300014: car with interior 14_Blue_Wheel_RR
+    4300016: car with interior 14_Blue_Steering
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
