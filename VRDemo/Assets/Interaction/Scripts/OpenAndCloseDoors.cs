@@ -28,11 +28,16 @@ public class OpenAndCloseDoors : NetworkBehaviour
     }
   }
 
+  void Start()
+  {
+      
+  }
+
   void Update()
   {
     if (Input.GetKeyDown(KeyCode.D))
     {
-      CmdToggleDoors();
+      if (hasAuthority) CmdToggleDoors();
     }
   }
 
