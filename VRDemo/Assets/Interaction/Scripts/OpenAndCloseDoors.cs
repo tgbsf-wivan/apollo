@@ -6,13 +6,18 @@ using UnityEngine.Networking;
 public class OpenAndCloseDoors : NetworkBehaviour
 {
 
+  public class Command : MessageBase
+  {
+    public static short id { get { return 1000; } }
+  }
+
+
   public Transform LeftDoor = null;
   public Transform RightDoor = null;
 
   private bool are_open = false;
 
-  [Command]
-  void CmdToggleDoors()
+  void ToggleDoors(NetworkMessage netMessage)
   {
     if (are_open)
     {
@@ -30,14 +35,20 @@ public class OpenAndCloseDoors : NetworkBehaviour
 
   void Start()
   {
-      
+    if (isServer)
+    {
+      NetworkServer.RegisterHandler(Command.id, ToggleDoors);
+    }
   }
 
   void Update()
   {
     if (Input.GetKeyDown(KeyCode.D))
     {
-      if (hasAuthority) CmdToggleDoors();
+      if (isClient)
+      {
+        NetworkManager.singleton.client.Send(Command.id, new Command());
+      }
     }
   }
 
