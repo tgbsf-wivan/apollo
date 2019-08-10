@@ -198,6 +198,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car with interior 14_Red
       objectReference: {fileID: 0}
+    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4622151372758928, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -240,26 +260,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4622151372758928, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4475598822889752, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4118342276469930, guid: 35b7518f428f7af47a0cf2f67b7d3bac, type: 3}
@@ -1172,6 +1172,51 @@ MonoBehaviour:
     i15: 172
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!1 &1563509188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563509190}
+  - component: {fileID: 1563509189}
+  m_Layer: 0
+  m_Name: VR Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1563509189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563509188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df0673c48b2a464eb28cb98c9c956a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TranslationSpeed: 1
+  RotationSpeed: 50
+--- !u!4 &1563509190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563509188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1774924416 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1276476454682000, guid: 35b7518f428f7af47a0cf2f67b7d3bac,
@@ -1326,7 +1371,7 @@ Transform:
   - {fileID: 169401818}
   - {fileID: 418644140}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1979547461
 MonoBehaviour:
