@@ -404,7 +404,7 @@ MonoBehaviour:
   isNetworkActive: 0
   matchMaker: {fileID: 0}
   host: 1
-  address: localhost
+  address: 172.22.7.65
   port: 7777
 --- !u!1 &416266859 stripped
 GameObject:
