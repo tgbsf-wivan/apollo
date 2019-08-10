@@ -357,7 +357,7 @@ MonoBehaviour:
   matchSize: 4
   isNetworkActive: 0
   matchMaker: {fileID: 0}
-  host: 0
+  host: 1
   address: localhost
   port: 7777
 --- !u!1 &416266859 stripped
